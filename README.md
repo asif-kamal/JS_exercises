@@ -36,3 +36,4 @@ We won't actually merge your branch, but the pull request will allow us to view 
 4. Go to https://github.com/CodeYourFuture/js-exercises and click the **New pull request** button (this create a request to merge your `origin/master` to our `remote/master`)
 5. Give your pull request a title e.g. `Daniel's homework`
 6. Click **Create pull request**
+# JS_exercises
