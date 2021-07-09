@@ -38,7 +38,7 @@ The function must:
 */
 
 function remove(arr, index) {
-  return arr.slice(0, index); // complete this statement
+  return arr.filter((e, i) => i !== index); // complete this statement
 }
 
 /*
