@@ -24,6 +24,8 @@ Tip: use logical operators
 function validate(num) {
   if (Number.isFinite(num) && (num % 2 == 0) && (num <= 100)) {
     return true
+  } else {
+    return false
   }
 }
 
@@ -36,7 +38,7 @@ The function must:
 */
 
 function remove(arr, index) {
-  return; // complete this statement
+  return arr.slice(0, index); // complete this statement
 }
 
 /*
