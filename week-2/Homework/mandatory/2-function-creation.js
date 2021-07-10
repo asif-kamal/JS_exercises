@@ -50,7 +50,17 @@ Write a function that:
 */
 
 function formatPercentage(arr) {
-  
+
+  const newArr = []
+  for (const n of arr) {
+    if (n > 100) {
+      newArr.push("100%")
+    } else {
+    let formatted = (Math.round(n * 100)/100) + "%"
+    newArr.push(formatted)
+    }
+  }
+  return newArr
 }
 
 /* ======= TESTS - DO NOT MODIFY ===== */
