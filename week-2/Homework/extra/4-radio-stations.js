@@ -38,7 +38,14 @@ function getAllFrequencies() {
  */
 // `getStations` goes here
 function getStations() {
-
+  let arr = []
+  arr = getAllFrequencies()
+  let newArr = []
+  
+  arr.forEach(element => {if (isRadioStation(element)){
+     newArr.push(element)
+  }})
+  return newArr
 }
 
 
