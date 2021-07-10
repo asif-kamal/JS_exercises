@@ -14,6 +14,18 @@
  */
 
 // `getAllFrequencies` goes here
+function getAllFrequencies() {
+  let min = 87;
+  let max = 108;
+  let increments = 1
+  let arr = []
+
+  for(let i = min; i <= max; i=i+increments) {
+    arr.push(i)
+  }
+  return arr
+  
+}
 
 /**
  * Next, let's write a function that gives us only the frequencies that are radio stations.
@@ -25,6 +37,9 @@
  * - Return only the frequencies that are radio stations.
  */
 // `getStations` goes here
+function getStations() {
+
+}
 
 
 /* ======= TESTS - DO NOT MODIFY ======= */
