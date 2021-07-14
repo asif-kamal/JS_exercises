@@ -10,8 +10,14 @@
   Use the tests to confirm which message to return
 */
 
-function bushChecker() {
-
+function bushChecker(bushBerryColours) {
+  for (const berry of bushBerryColours) {
+    if (bushBerryColours.every(berry => berry === "pink")) {
+      "Bush is safe to eat from"
+      } else if (berry != "pink") {
+      return "Toxic! Leave bush alone!"
+    }
+  }
 }
 
 /* ======= TESTS - DO NOT MODIFY ===== */
