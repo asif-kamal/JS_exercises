@@ -8,8 +8,9 @@
   NOTE: don't include any element that is not a "family".
 */
 
-function colonisers() {
-
+function colonisers(voyagers) {
+  const families = voyagers.filter((family) => family.startsWith("A") && family.endsWith("ly"));
+  return families
 }
 
 /* ======= TESTS - DO NOT MODIFY ===== */
